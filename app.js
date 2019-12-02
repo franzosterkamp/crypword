@@ -12,6 +12,7 @@ switch (cmd) {
 
   case "set":
     set(key, value);
+
     break;
 
   case "unset":
@@ -21,5 +22,3 @@ switch (cmd) {
   default:
     console.log("error");
 }
-
-console.log(passwords);
