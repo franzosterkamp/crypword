@@ -2,7 +2,6 @@ const { get, set, unset } = require("./utils/cmds");
 const { askForPassword } = require("./utils/input");
 const { verifyHash, readMasterPassword } = require("./utils/crypto");
 const userArgs = process.argv.slice(2);
-const readline = require("readline");
 const [cmd, key, value] = userArgs;
 
 async function execute() {
